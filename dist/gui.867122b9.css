@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+}
+
+.page {
+  background-image: url("how-arc-raiders-lets-you-thrive-in-a-post-apocalyptic-world-dominated-by-machines-3840x2160-bf6cde0708a6.3c192298.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+.header {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.header__timer {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.location-bar {
+  align-items: center;
+  height: 80px;
+  padding: 0 10px;
+  display: flex;
+}
+
+.location-bar .tick-1 {
+  background: #fff;
+  width: 2px;
+  height: 15px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.location-bar .tick-1:after {
+  content: "W";
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.location-bar .tick-2, .location-bar .tick-3, .location-bar .tick-4, .location-bar .tick-5, .location-bar .tick-6, .location-bar .tick-7, .location-bar .tick-8, .location-bar .tick-9 {
+  background: #555;
+  width: 2px;
+  height: 10px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.location-bar .tick-10 {
+  background: #fff;
+  width: 2px;
+  height: 15px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.location-bar .tick-10:after {
+  content: "NW";
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.location-bar .tick-11, .location-bar .tick-12, .location-bar .tick-13, .location-bar .tick-14, .location-bar .tick-15, .location-bar .tick-16, .location-bar .tick-17, .location-bar .tick-18, .location-bar .tick-19 {
+  background: #555;
+  width: 2px;
+  height: 10px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.location-bar .tick-20 {
+  background: #fff;
+  width: 2px;
+  height: 15px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.location-bar .tick-20:after {
+  content: "N";
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.location-bar .tick-21, .location-bar .tick-22, .location-bar .tick-23, .location-bar .tick-24, .location-bar .tick-25, .location-bar .tick-26, .location-bar .tick-27, .location-bar .tick-28, .location-bar .tick-29 {
+  background: #555;
+  width: 2px;
+  height: 10px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.location-bar .tick-30 {
+  background: #fff;
+  width: 2px;
+  height: 15px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.location-bar .tick-30:after {
+  content: "NE";
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*# sourceMappingURL=gui.867122b9.css.map */

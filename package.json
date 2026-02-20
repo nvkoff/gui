@@ -1,0 +1,23 @@
+{
+  "name": "gui",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvkoff/gui.git"
+  },
+  "author": "nvkoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvkoff/gui/issues"
+  },
+  "homepage": "https://github.com/nvkoff/gui#readme",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
+  }
+}

@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__timer {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,38 @@
+.location-bar {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  padding: 0 10px;
+
+  $labels: "W", "NW", "N", "NE";
+
+  @for $i from 1 through 30 {
+    .tick-#{$i} {
+      width: 2px;
+      margin-right: 8px;
+      background: #555;
+      height: 10px;
+      position: relative;
+
+      @if ($i == 1 or $i == 10 or $i == 20 or $i == 30) {
+        height: 15px;
+        background: #fff;
+
+        &::after {
+          content: nth($labels,
+            if($i == 1, 1,
+            if($i == 10, 2,
+            if($i == 20, 3,
+            4)))
+          );
+          position: absolute;
+          top: -15px;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 12px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
