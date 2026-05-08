@@ -1,0 +1,25 @@
+.info {
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+
+  &__player {
+    display: flex;
+
+  }
+
+  &__team-color {
+    background-color: blue;
+    height: 15px;
+    width: 7px;
+  }
+
+  &__hp {
+
+  }
+}
+
+
+.shield {
+  
+}

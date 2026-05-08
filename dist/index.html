@@ -1,12 +1,11 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html><html lang="pl"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="/gui.579125c3.js"></script>
+    <title>Game GUI</title>
     <link rel="stylesheet" href="/gui.867122b9.css">
   </head>
   <body>
-    <div class="page">
+    <div class="page" id="game-page">
       <header class="header page__header">
         <div class="location-bar">
           <div class="tick-1"></div>
@@ -42,7 +41,41 @@
         </div>
         <div class="header__timer">18:29</div>
       </header>
+
+      <main class="hud">
+        <div class="interaction-panel">
+          <p>
+            Klawisze: <span>E</span> inventory, <span>+/-</span> jasność,
+            <span>Enter</span> tekst, <span>1-5</span> sloty
+          </p>
+          <p>Zebrane surowce: <strong id="resource-count">0</strong></p>
+        </div>
+
+        <div class="resource-field" id="resource-field">
+          <button class="resource-node" style="top: 25%; left: 22%" aria-label="Surowiec 1"></button>
+          <button class="resource-node" style="top: 42%; left: 48%" aria-label="Surowiec 2"></button>
+          <button class="resource-node" style="top: 33%; left: 72%" aria-label="Surowiec 3"></button>
+          <button class="resource-node" style="top: 58%; left: 36%" aria-label="Surowiec 4"></button>
+          <button class="resource-node" style="top: 62%; left: 66%" aria-label="Surowiec 5"></button>
+        </div>
+
+        <div class="inventory" id="inventory" aria-hidden="true">
+          <img class="inventory__image" src="/inventory.1b15d1ce.png" alt="Inventory">
+        </div>
+
+        <div class="center-message" id="center-message">🤡Don`t shoot🤡</div>
+
+        <div class="hotbar" id="hotbar">
+          <button class="hotbar__slot is-active" data-slot="1">1</button>
+          <button class="hotbar__slot" data-slot="2">2</button>
+          <button class="hotbar__slot" data-slot="3">3</button>
+          <button class="hotbar__slot" data-slot="4">4</button>
+          <button class="hotbar__slot" data-slot="5">5</button>
+        </div>
+      </main>
     </div>
+
+    <script src="/gui.579125c3.js"></script>
   
 
 <script src="/gui.59712999.js"></script></body></html>

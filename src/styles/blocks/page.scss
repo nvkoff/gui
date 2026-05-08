@@ -9,4 +9,11 @@ body {
   background-repeat: no-repeat;
   min-height: $bg-size;
   min-width: $bg-size;
+
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
